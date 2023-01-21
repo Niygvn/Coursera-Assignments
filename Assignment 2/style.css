@@ -1,0 +1,35 @@
+
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+.paragraph{
+    background-color:rgb(176, 176, 176);
+    width: 350px;
+    padding: 10px;
+}
+#div1,#div2,#div3{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: aqua;
+    border: 5px solid black;
+    
+}
+h2{
+    border-bottom: 2px solid black;
+    margin: 0px;
+    text-align: center;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#chicken{
+    background-color: pink;
+}
+#beef{
+    background-color: red;
+    color: white;
+}
+#sushi{
+    background-color: rgb(155, 140, 255);
+}
