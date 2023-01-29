@@ -3,5 +3,35 @@
 #header-nav{
     background-color: rgb(162, 162, 162);
     border-radius: 0;
-    border: 0;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.navbar-brand a{
+    text-decoration: none;
+}
+.navbar-brand h1{ /*? Restaurant Name  */
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.navbar-brand a:hover, a:focus{
+    text-decoration: none;
+}
+.nav-item a{
+    color: black;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+.nav-item a:hover, a:focus, a:active{
+    color:black;
+    background-color: rgb(188, 188, 188);
+}
+.navbar-nav{
+    border-top: 3px solid black;
+}
+#chickenNav, #beefNav{
+    border-bottom: 2px solid black;
 }
