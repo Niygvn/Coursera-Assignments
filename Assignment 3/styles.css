@@ -4,7 +4,8 @@
     background-color: rgb(162, 162, 162);
     border-radius: 0;
     border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
+    padding-bottom: 0;
 }
 .navbar-brand a{
     text-decoration: none;
@@ -14,6 +15,7 @@
     font-weight: bold;
     color: black;
     text-shadow: 1px 1px 1px white;
+    padding-left: 20px;
 }
 .navbar-brand a:hover, a:focus{
     text-decoration: none;
@@ -35,3 +37,104 @@
 #chickenNav, #beefNav{
     border-bottom: 2px solid black;
 }
+#containerNavbar{
+    margin: 0;
+    padding: 0;
+}
+#buttonNavbar{
+    margin-right: 20px;
+}
+/*! HEADER-END  */
+/*! SECTION  */
+section{
+    box-sizing: border-box;
+}
+h2 {
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    font-size: 250%;
+    color: black;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.section {
+    padding: 15px;
+    width: 90%;
+}
+
+.row {
+    background-color: #9d9d9d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; 
+}
+
+h3 {
+    float: right;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 20px;
+    
+}
+.heading1{
+    background-color: #9d9d9d;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+.heading2{
+    background-color: #9d9d9d;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+.heading3{
+    background-color: #9d9d9d;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+.content {
+    clear: both;
+    padding: 15px;
+    font-family:'Ubuntu', sans-serif;
+    color: #000;
+    margin: 3px;
+    min-height: 120px;
+}
+
+/*! Desktop */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/*! Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/*! Mobile */
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
+/*! SECTION-END  */
